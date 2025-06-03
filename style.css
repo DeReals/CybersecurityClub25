@@ -12,14 +12,14 @@ header {
   background: linear-gradient(45deg, #0a0a0a, #1c1c1c);
   padding: 20px;
   border-radius: 10px;
-  color: #00bfff;
-  text-shadow: 2px 2px 5px #00bfff;
-  box-shadow: 0 0 10px #00bfff;
+  color: #59da75;
+  text-shadow: 2px 2px 5px #057161;
+  box-shadow: 0 0 10px #057161;
 }
 
 h1,
 h2 {
-  text-shadow: 2px 2px 10px #00bfff;
+  text-shadow: 2px 2px 10px #057161;
 }
 
 #officers {
@@ -38,25 +38,25 @@ h2 {
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 20px;
-  box-shadow: 0 0 20px #00bfff;
+  box-shadow: 0 0 20px #057161;
   width: 60%;
   transition: transform 0.3s ease-in-out;
 }
 
 .officer:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px #00bfff;
+  box-shadow: 0 0 30px #057161;
 }
 
 .officer img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 2px solid #00bfff;
+  border: 2px solid #057161;
 }
 
 .info h3 {
-  color: #00bfff;
+  color: #057161;
   margin: 5px 0;
 }
 
@@ -68,5 +68,14 @@ footer {
   background-color: #262626;
   padding: 10px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 25px;
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#calendar {
+  padding-bottom: 50px;
 }
