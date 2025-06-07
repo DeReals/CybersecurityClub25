@@ -20,6 +20,7 @@ header {
 h1,
 h2 {
   text-shadow: 0.2rem 0.2rem 1rem #057161;
+  align-items: center;
 }
 
 #officers {
