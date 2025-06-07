@@ -5,21 +5,21 @@ body {
   background-color: #0a0a0a;
   color: #e0e0e0;
   text-align: center;
-  padding: 20px;
+  padding: 2rem;
 }
 
 header {
   background: linear-gradient(45deg, #0a0a0a, #1c1c1c);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 2rem;
+  border-radius: 1rem;
   color: #59da75;
-  text-shadow: 2px 2px 5px #057161;
-  box-shadow: 0 0 10px #057161;
+  text-shadow: 0.2rem 0.2rem 0.5rem #057161;
+  box-shadow: 0 0 1rem #057161;
 }
 
 h1,
 h2 {
-  text-shadow: 2px 2px 10px #057161;
+  text-shadow: 0.2rem 0.2rem 1rem #057161;
 }
 
 #officers {
@@ -33,59 +33,57 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 2vw;
   background: linear-gradient(135deg, #0a0a0a, #262626);
-  padding: 20px;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 20px #057161;
-  width: 60%;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  margin-bottom: 2vh;
+  box-shadow: 0 0 2rem #057161;
+  width: 60vw;
   transition: transform 0.3s ease-in-out;
-  border-bottom: 1px solid #ddd; /* Optional: adds visual separation */
-  padding: 10px;
+  border-bottom: 0.1rem solid #ddd;
 }
 
 .officer:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px #057161;
+  box-shadow: 0 0 3rem #057161;
 }
 
 .officer img {
-  width: 150px;
-  height: 150px;
+  width: 10vw;
+  height: 10vw;
   border-radius: 50%;
-  border: 2px solid #057161;
-  object-fit: cover; /* Keeps image proportions consistent */
+  border: 0.2rem solid #057161;
+  object-fit: cover;
   position: relative;
-  left: 120px;
+  left: 6vw;
 }
 
 .info h3 {
   color: #057161;
-  margin: 5px 0;
+  margin: 0.5em 0;
 }
 
 .info p {
-  font-size: 16px;
+  font-size: 1.2rem;
 }
 
 footer {
   background-color: #262626;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 25px;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2vh;
 }
 
 #about {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 #calendar {
-  padding-bottom: 50px;
+  padding-bottom: 5vh;
 }
 
-/* Style for horizontal navigation */
 nav ul {
   list-style: none;
   display: flex;
@@ -95,13 +93,13 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 15px;
+  margin: 0 1vw;
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
-  padding: 10px 15px;
+  padding: 1vh 1vw;
   display: inline-block;
 }
 
@@ -110,48 +108,48 @@ nav ul li a:hover {
 }
 
 .info {
-  flex: 1; /* Ensures text fills available space */
+  flex: 1;
 }
 
 .news-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 2vw;
   justify-content: center;
 }
 
 .news-card {
-  width: 300px;
-  border: 1px solid #ddd;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 20vw;
+  border: 0.1rem solid #ddd;
+  box-shadow: 0px 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 0.8rem;
 }
 
 .news-card img {
   width: 100%;
-  height: 200px;
+  height: 15vh;
   object-fit: cover;
 }
 
 .news-content {
-  padding: 15px;
+  padding: 1rem;
 }
 
 .news-content h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .news-content .date {
-  font-size: 14px;
+  font-size: 1rem;
   color: gray;
-  margin: 5px 0;
+  margin: 0.5rem 0;
 }
 
 .news-content a {
   display: block;
-  margin-top: 10px;
+  margin-top: 1rem;
   text-decoration: none;
   color: #007bff;
   font-weight: bold;
@@ -162,15 +160,15 @@ nav ul li a:hover {
 }
 
 #blog {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 2vw;
 }
 
 .links a {
@@ -181,7 +179,7 @@ nav ul li a:hover {
 
 .links img {
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 5vw;
+  height: 5vw;
   object-fit: contain;
 }
