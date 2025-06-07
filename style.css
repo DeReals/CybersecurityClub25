@@ -128,7 +128,7 @@ nav ul li a:hover {
 
 .news-card img {
   width: 100%;
-  height: 15vh;
+  height: 30vh;
   object-fit: cover;
 }
 
@@ -182,4 +182,70 @@ nav ul li a:hover {
   width: 5vw;
   height: 5vw;
   object-fit: contain;
+}
+
+#gallery {
+  padding: 5vh;
+}
+
+.resource-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.resource-card {
+  background: linear-gradient(135deg, #0a0a0a, #1c1c1c);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 0 1rem rgba(5, 113, 97, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.resource-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 2rem rgba(5, 113, 97, 0.7);
+}
+
+.resource-card h3 {
+  color: #59da75;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.resource-card p {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.resource-card a {
+  display: inline-block;
+  background-color: #057161;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.resource-card a:hover {
+  background-color: #45a089;
+}
+
+@media (max-width: 768px) {
+  .resource-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resource-card {
+    width: 90%;
+  }
 }
