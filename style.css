@@ -184,10 +184,6 @@ nav ul li a:hover {
   object-fit: contain;
 }
 
-#gallery {
-  padding: 5vh;
-}
-
 .resource-container {
   display: flex;
   flex-wrap: wrap;
@@ -232,14 +228,14 @@ nav ul li a:hover {
   border-radius: 0.5rem;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s ease-in-out;
+  transition: background 0.7s ease-in-out;
 }
 
 .resource-card a:hover {
   background-color: #45a089;
 }
 
-@media (max-width: 768px) {
+@media (max-width: device-width) {
   .resource-container {
     flex-direction: column;
     align-items: center;
