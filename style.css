@@ -15,12 +15,13 @@ header {
   color: #59da75;
   text-shadow: 0.2rem 0.2rem 0.5rem #057161;
   box-shadow: 0 0 1rem #057161;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 header h1 {
   align-items: center;
-  text-align: center;
-  position: relative; /* TODO: Fix This */
-  right: 4vw;
 }
 
 h1,
