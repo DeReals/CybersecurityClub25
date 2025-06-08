@@ -18,6 +18,7 @@ header {
 }
 header h1 {
   align-items: center;
+  text-align: center;
   position: relative; /* TODO: Fix This */
   right: 4vw;
 }
